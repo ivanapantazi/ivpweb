@@ -1,0 +1,140 @@
+.hero {
+    background-color: $white;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row {
+        display: flex;
+        flex-wrap: inherit;
+        overflow: hidden;
+        max-height: 100%;
+        @media (max-width: 991px) {
+            flex-wrap: wrap;
+        }
+        .img {
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            padding: 0;
+            overflow: hidden;
+            img {
+                margin-bottom: 0;
+            }
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5%;
+            background-color: $blue;
+            min-width: 700px;
+            min-height: 600px;
+            @media (max-width:991px) {
+                width: 100%;
+            }
+
+            h2 {
+                color: $white;
+            }
+            .content-text {
+                z-index: 50;
+            }
+
+            .Typewriter {
+                min-width: 200px;
+                margin-bottom: 60px;
+            }
+            .Typewriter span {
+                color: $pink;
+                font-size: 5rem;
+                font-family: $headingFontFamily;
+                font-weight: 900;
+                &.Typewriter__cursor {
+                    color: $white;
+                }
+            }
+            @media (max-width:991px) {
+                .Typewriter span {
+                    font-size: 3rem;
+                }
+            }
+            @media (max-width:1024px) {
+                .Typewriter span {
+                    font-size: 2rem;
+                }
+            }
+            .hover-button {
+                margin-top: 20px;
+            }
+            @media (max-width:991px) {
+                margin: auto;
+            }
+           
+        }
+
+        .images-wrapper {
+           min-height: 600px;
+           min-width: 500px;
+           background: $blue;
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           @media (max-width: 900px) {
+            width: 100%;
+            min-height: 300px;
+           }
+           svg {
+               color: $white;
+               font-size: 50px;
+                @media (max-width:991px) {
+                    font-size: 20px;                       
+                }
+
+                &.fa-drupal,
+                &.fa-css3,
+                &.fa-codepen {
+                    color: $pink;
+                }
+
+                &.fa-react,
+                &.fa-sass,
+                &.fa-internet-explorer,
+                &.fa-code {
+                    color: $yellow;
+                }
+
+           }
+            .float-image {
+                object-fit: cover;
+                position: absolute;
+                width: 50px;
+                @media (max-width:991px) {
+                    width: 20px;
+                }
+                &.move-up {
+                    animation: up 4s infinite  alternate;
+                }
+                &.move-down {
+                    animation: down 4s infinite  alternate;
+                }
+                
+                @keyframes up {
+                    0% { transform: translateY(0); }
+                    100% { transform: translateY(-50px); }
+                }
+                @keyframes down {
+                    0% { transform: translateY(0); }
+                    100% { transform: translateY(50px); }
+                }
+            }
+           
+        }
+    }
+}

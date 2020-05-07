@@ -1,0 +1,56 @@
+//
+//≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+//≡≡≡≡≡≡   RESET / NORMALISE 1.0                                                                          ≡≡≡≡≡≡≡≡≡≡≡≡
+//≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+//*/
+
+html {
+    font-size: calc(1em * .625);
+    text-size-adjust: 100%; // Prevent font scaling in landscape while allowing user zoom */
+}
+
+body {
+    font-size: 100%;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+video,
+picture {
+    display: block;
+}
+
+iframe {
+    border: 0 solid transparent;
+}
+
+img {
+    border: 0;
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    img {
+        border: 0;
+    }
+}
+
+
+input {
+    &:focus {
+        border-color: none;
+    }
+}

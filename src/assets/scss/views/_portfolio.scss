@@ -1,0 +1,54 @@
+.portfolio {
+    background-color: $white;
+    position: relative;
+    padding-top: 5rem;
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+        min-height: 100%;
+        padding: 0;
+        @media (max-width:991px) {
+            display: block;
+            flex-wrap: wrap;
+        }
+        .side {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-color: $blue;
+            @include baffleTextRotate;
+            
+            @media (max-width:991px) {
+                height: 100px;
+                width: 100%;
+                .baffle_text {
+                    transform: inherit;
+                    color: $white;
+                    span {
+                        font-size: 4rem;
+                        line-height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .gallery {
+        &-list {
+            margin: 2rem 2rem 2rem 0;
+        }
+
+        &-item {
+            margin: 0 0 3rem 0;
+            cursor: pointer;
+            
+            img {
+                border: 1px solid $purple;
+            }
+        }
+    }
+
+}

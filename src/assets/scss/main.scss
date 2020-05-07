@@ -1,0 +1,16 @@
+﻿@import "base/_reset.scss";
+@import "global/_variables.scss";
+@import "base/_base.scss";
+@import "global/_mixins.scss";
+
+@import "components/_navigation.scss";
+@import "components/_progress.scss";
+@import "components/_spinner.scss";
+
+@import "views/_about.scss";
+@import "views/_header.scss";
+@import "views/_contact.scss";
+@import "views/_hero.scss";
+@import "views/_portfolio.scss";
+@import "views/_services.scss";
+@import "views/_team.scss";

@@ -1,0 +1,47 @@
+.about {
+    background-color: $white;
+    position: relative;
+    .row {
+        display: flex;
+        flex-wrap: inherit;
+        min-height: 100%;
+        padding: 0;
+        @media (max-width:991px) {
+            flex-wrap: wrap;
+            position: inherit;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 5%;
+            @media (max-width:768px) {
+                padding: 5% 10% 5% 15%;
+            }
+            h1 {
+                color: $blue;
+                margin: 10px 0 20px 0; 
+            }
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 3%;
+            background-color: $blue;
+            @media (max-width:991px) {
+                width: 100%;
+            }
+            .skills-container {
+                max-width: 80%;
+                margin-left: 10%;
+
+                @media (max-width: 991px) {
+                    max-width: 100%;
+                    margin-top: 20px;
+                    
+                }
+            }
+        }
+    }
+}

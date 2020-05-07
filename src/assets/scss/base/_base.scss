@@ -1,0 +1,320 @@
+﻿html,
+body {
+  height: 100%;
+  width: 100%;
+    margin: 0;
+
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $baseFontFamily; 
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    color: $blue;
+    font-family: $headingFontFamily;
+    font-weight: 900;
+}
+
+h1,
+.h1 {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    margin-bottom: 2.1rem;
+    
+    @media #{$tablet} {
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+}
+
+h2,
+.h2 {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.5rem;
+
+    @media #{$tablet} {
+       font-size: 2.8rem;
+       line-height: 3.4rem;
+    }
+}
+
+h3,
+.h3 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin-bottom: 1.5rem;
+
+    @media #{$tablet} {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+}
+
+h4,
+.h4 {
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.5rem;
+    font-family: $baseFontFamily;
+    font-weight: 300;
+    color: $black;
+
+    @media #{$tablet} {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+}
+
+a:not([href^="/"]) {
+    text-decoration: none;
+    color: $baseAnchorColour;
+    font-family: $baseFontFamily;
+    font-weight: 700;
+    border-bottom: .1rem solid $black;
+
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+        color: $blue;
+        border-bottom: .2rem solid $blue;
+    }
+} 
+
+a {
+    color: $baseAnchorColour;
+    font-family: $baseFontFamily;
+}
+
+
+ul,
+ol {
+    color: $black;
+
+    li {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+        margin-bottom: 1.2rem;
+        font-family: $baseFontFamily;
+    }
+}
+
+
+
+.body-l {
+    font-family: $baseFontFamily;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 2rem 0;
+
+    @media #{$tablet} {
+        font-size: 2.2rem;
+        line-height: 3.0rem;
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+}
+
+
+.body-xl {
+    font-family: $baseFontFamily;
+    margin: 2rem 0;
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+
+    @media #{$tablet} {
+        font-size: 3.8rem;
+        line-height: 5.2rem;
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+}
+
+.pink {
+    background: $pink;
+    color: $blue;
+}
+
+.blue {
+    background: $blue;
+    color: $white;
+}
+
+img {
+  max-width: 100%;
+} 
+
+.line-text h4{
+  color: $pink;
+  font-family: $headingFontFamily;
+  font-size: 22px;
+  position: relative;
+  left: 110px;
+  flex-basis: inherit;
+  &:after {
+    content: "";
+    height: 3px;
+    width: 90px;
+    display: block;
+    background-color: $pink;
+    position: absolute;
+    left: -108px;
+    top: 11px;
+  }
+  @media (max-width:500px) {
+    font-size: 14px;
+    &:after {
+      top: 7px;
+    }
+  }
+}
+.button {
+  margin-top: 20px;
+  button {
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-family: $baseFontFamily;
+    font-weight: 700;
+    transition: .5s;
+  }
+  &.white {
+    button {
+      border-color: $white;
+      background-color: $white;
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}
+.separator {
+  height: 3px;
+  width: 90px;
+  display: block;
+  background-color: $pink;
+}
+.row {
+  overflow-x: hidden;
+}
+
+.error-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue;
+  color: $white;
+  h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  a {
+    color: $pink;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.hover-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: $black;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  color: $white;
+  font-size: 20px;
+  font-family: $baseFontFamily;
+  letter-spacing: 4px;
+  border: none;
+  padding: 0 10px;
+
+  span {
+      font-size: 15px;
+      &:before, &:after {
+          content: '';
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          transition: 1s;
+          mix-blend-mode: hue;
+      }
+      &:before {
+          bottom: -2px;
+          left: -2px;
+          background: $white;
+      }
+      &:after {
+          bottom: -2px;
+          right: -2px;
+          background: $pink;
+      }
+  }
+  &:before,
+  &:after {
+      content: '';
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      transition: 1s;
+      mix-blend-mode: hue;
+  }
+  &:before {
+      top: -2px;
+      left: -2px;
+      background: $pink;
+  }
+  &:after {
+      top: -2px;
+      right: -2px;
+      background: $white;
+  }
+  &:hover:before,
+  &:hover:after,
+  &:hover span:before,
+  &:hover span:after
+  {
+      width: calc( 180px / 2 );
+      height: calc( 50px / 2 );
+  }
+  &:focus {
+    outline: none;
+  }
+  &.error {
+    &:before,
+    &:after,
+    span:before,
+    span:after {
+      background-color: #FF0000;
+    }
+  }
+}
+
+
+
+

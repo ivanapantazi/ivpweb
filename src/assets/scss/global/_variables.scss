@@ -1,0 +1,29 @@
+
+// Highlight Media queries / Break points
+$tablet: 'all and (min-width:768px)';
+$tablet-portrait: 'all and (min-width:768px) and (max-width:1023px)';
+$desktop: 'all and (min-width:1024px)';
+$desktop-large: 'all and (min-width:1160px)';
+
+
+// Project Primary colours
+
+$purple: #522d5b;
+$pink: #ff6363;
+$yellow: #ffbd69;
+$blue: #202040;
+
+$white: #ffffff;
+$grey: #33313b;
+$black: #0e0220;
+$lightGrey: #999999;
+
+
+// Project Font colour
+$baseFontFamily: 'Lato', sans-serif;
+
+$baseFontColour: $black;
+$baseAnchorColour: $black;
+
+$headingFontFamily:  'Muli', sans-serif;
+
