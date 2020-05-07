@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import BaffleText from '../../components/baffle-text'
 import AnimationContainer from '../../components/animation-container'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -61,7 +61,7 @@ class Services extends React.Component {
                       : 'inherit',
                 }}
               >
-                <Container>{this.services()}</Container>
+                {this.services()}
               </div>
             </Col>
           </div>

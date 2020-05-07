@@ -21,41 +21,37 @@
                @media (max-width: 991px) {
                     margin-top: 40px;
                }
-               .container {
-                    max-width: 1400px;
+               .row {
                     overflow: hidden;
-                    .row {
-                         overflow: hidden;
+               }
+               .service {
+                    text-align: center;
+                    margin: 20px 0px;
+                    padding: 0 40px;
+                    @media (max-width: 991px) {
+                         padding: 0;
+                         margin-bottom: 50px;
                     }
-                    .service {
-                         text-align: center;
-                         margin: 20px 0px;
-                         padding: 0 40px;
+                    @media (max-width: 1300px) {
+                         padding: 0 30px;
+                    }
+                    .icon svg {
+                         font-size: 50px;
+                         color: $blue;
+                  
+                         &:first-child() {
+                              font-size: 40px;
+                         }
+                    }
+                    h4 {   
+                         margin: 15px 0px 9px 0px;
+                    }
+               
+                    &.border-side {
+                         border-left: 1px solid $blue;
+                         border-right: 1px solid $blue;
                          @media (max-width: 991px) {
-                              padding: 0;
-                              margin-bottom: 50px;
-                         }
-                         @media (max-width: 1300px) {
-                              padding: 0 30px;
-                         }
-                         .icon svg {
-                              font-size: 50px;
-                              color: $blue;
-                       
-                              &:first-child() {
-                                   font-size: 40px;
-                              }
-                         }
-                         h4 {   
-                              margin: 15px 0px 9px 0px;
-                         }
-                    
-                         &.border-side {
-                              border-left: 1px solid $blue;
-                              border-right: 1px solid $blue;
-                              @media (max-width: 991px) {
-                                   border: none;
-                              }
+                              border: none;
                          }
                     }
                }

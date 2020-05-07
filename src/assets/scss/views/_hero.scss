@@ -1,6 +1,5 @@
 .hero {
     background-color: $white;
-    height: 500px;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -15,18 +14,9 @@
         flex-wrap: inherit;
         overflow: hidden;
         max-height: 100%;
+        width: 100%;
         @media (max-width: 991px) {
             flex-wrap: wrap;
-        }
-        .img {
-            display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;
-            padding: 0;
-            overflow: hidden;
-            img {
-                margin-bottom: 0;
-            }
         }
         .content {
             display: flex;
@@ -34,7 +24,6 @@
             flex-direction: column;
             padding: 5%;
             background-color: $blue;
-            min-width: 700px;
             min-height: 600px;
             @media (max-width:991px) {
                 width: 100%;
@@ -45,6 +34,7 @@
             }
             .content-text {
                 z-index: 50;
+                min-width: 600px;
             }
 
             .Typewriter {
