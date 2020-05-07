@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a335ebfe.chunk.css",
+    "main.js": "/static/js/main.06dc1867.chunk.js",
+    "main.js.map": "/static/js/main.06dc1867.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0abb9038.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0abb9038.js.map",
+    "static/css/2.4c6ac84f.chunk.css": "/static/css/2.4c6ac84f.chunk.css",
+    "static/js/2.04fe7032.chunk.js": "/static/js/2.04fe7032.chunk.js",
+    "static/js/2.04fe7032.chunk.js.map": "/static/js/2.04fe7032.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.eefa4c993592d53632d65b0f8cd451c2.js": "/precache-manifest.eefa4c993592d53632d65b0f8cd451c2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.4c6ac84f.chunk.css.map": "/static/css/2.4c6ac84f.chunk.css.map",
+    "static/css/main.a335ebfe.chunk.css.map": "/static/css/main.a335ebfe.chunk.css.map",
+    "static/js/2.04fe7032.chunk.js.LICENSE.txt": "/static/js/2.04fe7032.chunk.js.LICENSE.txt",
+    "static/media/boosey.png": "/static/media/boosey.152808fa.png",
+    "static/media/cf_source.png": "/static/media/cf_source.e5e8ad42.png",
+    "static/media/first_aid_champions.png": "/static/media/first_aid_champions.9e50acb5.png",
+    "static/media/flu_facts.png": "/static/media/flu_facts.f9bb38bd.png",
+    "static/media/ipo.png": "/static/media/ipo.a6ea2a5a.png",
+    "static/media/lcm.png": "/static/media/lcm.3179708e.png",
+    "static/media/lightgallery.css": "/static/media/lg.ecff1170.eot",
+    "static/media/logo.svg": "/static/media/logo.6d231c52.svg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg",
+    "static/media/somerset_house.png": "/static/media/somerset_house.738ca0f7.png",
+    "static/media/stories.png": "/static/media/stories.c274810f.png",
+    "static/media/team-1.jpg": "/static/media/team-1.b899189b.jpg",
+    "static/media/team-2.jpg": "/static/media/team-2.cc594e8c.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.362c28fc.jpg",
+    "static/media/vertex.png": "/static/media/vertex.c56eaf3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0abb9038.js",
+    "static/css/2.4c6ac84f.chunk.css",
+    "static/js/2.04fe7032.chunk.js",
+    "static/css/main.a335ebfe.chunk.css",
+    "static/js/main.06dc1867.chunk.js"
+  ]
+}
