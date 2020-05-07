@@ -1,31 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ff48e277a04c87122b6094b121582dd",
+    "revision": "2d5a266072f6e9d5686e8a300ef3fbe9",
     "url": "/ivpweb/index.html"
   },
   {
-    "revision": "6a5248212fae62a8f4a0",
+    "revision": "c8b5aed45922fe566654",
     "url": "/ivpweb/static/css/2.cb21d0f4.chunk.css"
   },
   {
-    "revision": "d70e2a35d90e00829d43",
-    "url": "/ivpweb/static/css/main.7ccf5314.chunk.css"
+    "revision": "94d669ea7f77b5f3fd09",
+    "url": "/ivpweb/static/css/main.a3f696b1.chunk.css"
   },
   {
-    "revision": "6a5248212fae62a8f4a0",
-    "url": "/ivpweb/static/js/2.46896c83.chunk.js"
+    "revision": "c8b5aed45922fe566654",
+    "url": "/ivpweb/static/js/2.929d3006.chunk.js"
   },
   {
     "revision": "e99c6a16d2c2ccc3e4d601f24d94e183",
-    "url": "/ivpweb/static/js/2.46896c83.chunk.js.LICENSE.txt"
+    "url": "/ivpweb/static/js/2.929d3006.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d70e2a35d90e00829d43",
-    "url": "/ivpweb/static/js/main.1cd659c1.chunk.js"
+    "revision": "94d669ea7f77b5f3fd09",
+    "url": "/ivpweb/static/js/main.491407e9.chunk.js"
   },
   {
     "revision": "2cfff2576789c91dd5c7",
     "url": "/ivpweb/static/js/runtime-main.927a8e7a.js"
+  },
+  {
+    "revision": "e06eaa791c4821095ebae7255fdd6925",
+    "url": "/ivpweb/static/media/KPMG.e06eaa79.svg"
+  },
+  {
+    "revision": "762d5ba9ac0e9019405be80885ffa5a7",
+    "url": "/ivpweb/static/media/Vertex.762d5ba9.svg"
+  },
+  {
+    "revision": "f36e56dd232f877ab242dc4b00262f66",
+    "url": "/ivpweb/static/media/WPP.f36e56dd.svg"
+  },
+  {
+    "revision": "cc594e8ccd25d245c4641034729284e1",
+    "url": "/ivpweb/static/media/angelica.cc594e8c.jpg"
   },
   {
     "revision": "152808faa461d9b34f69ea2b4913b82c",
@@ -44,8 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivpweb/static/media/flu_facts.f9bb38bd.png"
   },
   {
+    "revision": "a2616df5c93416dedf418faad2a1065a",
+    "url": "/ivpweb/static/media/heineken.a2616df5.svg"
+  },
+  {
     "revision": "a6ea2a5a93205efec37968a178d1a3a4",
     "url": "/ivpweb/static/media/ipo.a6ea2a5a.png"
+  },
+  {
+    "revision": "b899189b404a716fc2f8e89b3f5df567",
+    "url": "/ivpweb/static/media/ivana.b899189b.jpg"
   },
   {
     "revision": "3179708ecbee6ec95c39e90b5ab83ecd",
@@ -66,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ecff11700aad0000cf3503f537d1df17",
     "url": "/ivpweb/static/media/lg.ecff1170.eot"
+  },
+  {
+    "revision": "c8238bc7d5b41f80a3798e9bd58cf34b",
+    "url": "/ivpweb/static/media/lloyds.c8238bc7.svg"
   },
   {
     "revision": "6d231c5292f6bc64b334fa06d4a3c5d3",
@@ -92,20 +120,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivpweb/static/media/somerset_house.738ca0f7.png"
   },
   {
+    "revision": "362c28fc84ba079d4914a90e6a133e88",
+    "url": "/ivpweb/static/media/stergios.362c28fc.jpg"
+  },
+  {
     "revision": "c274810f47d42fe024ab9bf15f52c06e",
     "url": "/ivpweb/static/media/stories.c274810f.png"
-  },
-  {
-    "revision": "b899189b404a716fc2f8e89b3f5df567",
-    "url": "/ivpweb/static/media/team-1.b899189b.jpg"
-  },
-  {
-    "revision": "cc594e8ccd25d245c4641034729284e1",
-    "url": "/ivpweb/static/media/team-2.cc594e8c.jpg"
-  },
-  {
-    "revision": "362c28fc84ba079d4914a90e6a133e88",
-    "url": "/ivpweb/static/media/team-3.362c28fc.jpg"
   },
   {
     "revision": "c56eaf3e999b75bce6db4791387f7962",
