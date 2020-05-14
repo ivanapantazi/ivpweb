@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05bc6cfcace2c6449573718cc8f039cf",
+    "revision": "1178ffb4dde1b713387a9fa5af5f7227",
     "url": "/ivpweb/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivpweb/static/css/2.cb21d0f4.chunk.css"
   },
   {
-    "revision": "361f92430fa303e573b6",
-    "url": "/ivpweb/static/css/main.6f7286a5.chunk.css"
+    "revision": "6b73715c3e494ffe67bd",
+    "url": "/ivpweb/static/css/main.d7e8082d.chunk.css"
   },
   {
     "revision": "be6be51c2cc2dd94939d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ivpweb/static/js/2.d4fb624a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "361f92430fa303e573b6",
-    "url": "/ivpweb/static/js/main.2e4e7b62.chunk.js"
+    "revision": "6b73715c3e494ffe67bd",
+    "url": "/ivpweb/static/js/main.d412c2fa.chunk.js"
   },
   {
     "revision": "2cfff2576789c91dd5c7",
