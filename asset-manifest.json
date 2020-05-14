@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/ivpweb/static/css/main.7e5810af.chunk.css",
-    "main.js": "/ivpweb/static/js/main.53100d4f.chunk.js",
-    "main.js.map": "/ivpweb/static/js/main.53100d4f.chunk.js.map",
+    "main.js": "/ivpweb/static/js/main.c87dedff.chunk.js",
+    "main.js.map": "/ivpweb/static/js/main.c87dedff.chunk.js.map",
     "runtime-main.js": "/ivpweb/static/js/runtime-main.927a8e7a.js",
     "runtime-main.js.map": "/ivpweb/static/js/runtime-main.927a8e7a.js.map",
     "static/css/2.cb21d0f4.chunk.css": "/ivpweb/static/css/2.cb21d0f4.chunk.css",
-    "static/js/2.edf70534.chunk.js": "/ivpweb/static/js/2.edf70534.chunk.js",
-    "static/js/2.edf70534.chunk.js.map": "/ivpweb/static/js/2.edf70534.chunk.js.map",
+    "static/js/2.d4fb624a.chunk.js": "/ivpweb/static/js/2.d4fb624a.chunk.js",
+    "static/js/2.d4fb624a.chunk.js.map": "/ivpweb/static/js/2.d4fb624a.chunk.js.map",
     "index.html": "/ivpweb/index.html",
-    "precache-manifest.2c8a4ca75f59c1c857d08e992c0f4d97.js": "/ivpweb/precache-manifest.2c8a4ca75f59c1c857d08e992c0f4d97.js",
+    "precache-manifest.294d2cb719935cb97ed174e885542422.js": "/ivpweb/precache-manifest.294d2cb719935cb97ed174e885542422.js",
     "service-worker.js": "/ivpweb/service-worker.js",
     "static/css/2.cb21d0f4.chunk.css.map": "/ivpweb/static/css/2.cb21d0f4.chunk.css.map",
     "static/css/main.7e5810af.chunk.css.map": "/ivpweb/static/css/main.7e5810af.chunk.css.map",
-    "static/js/2.edf70534.chunk.js.LICENSE.txt": "/ivpweb/static/js/2.edf70534.chunk.js.LICENSE.txt",
+    "static/js/2.d4fb624a.chunk.js.LICENSE.txt": "/ivpweb/static/js/2.d4fb624a.chunk.js.LICENSE.txt",
     "static/media/KPMG.svg": "/ivpweb/static/media/KPMG.e06eaa79.svg",
     "static/media/Vertex.svg": "/ivpweb/static/media/Vertex.762d5ba9.svg",
     "static/media/WPP.svg": "/ivpweb/static/media/WPP.f36e56dd.svg",
     "static/media/angelica.jpg": "/ivpweb/static/media/angelica.cc594e8c.jpg",
     "static/media/boosey.png": "/ivpweb/static/media/boosey.152808fa.png",
+    "static/media/brc.svg": "/ivpweb/static/media/brc.94949402.svg",
     "static/media/cf_source.png": "/ivpweb/static/media/cf_source.e5e8ad42.png",
     "static/media/first_aid_champions.png": "/ivpweb/static/media/first_aid_champions.9e50acb5.png",
     "static/media/flu_facts.png": "/ivpweb/static/media/flu_facts.f9bb38bd.png",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.927a8e7a.js",
     "static/css/2.cb21d0f4.chunk.css",
-    "static/js/2.edf70534.chunk.js",
+    "static/js/2.d4fb624a.chunk.js",
     "static/css/main.7e5810af.chunk.css",
-    "static/js/main.53100d4f.chunk.js"
+    "static/js/main.c87dedff.chunk.js"
   ]
 }
