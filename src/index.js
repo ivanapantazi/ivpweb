@@ -22,6 +22,7 @@ class App extends React.Component {
                 <About id="about" />
                 <Services id="services" />
                 <Portfolio id="portfolio" />
+                <div className="divider"></div>
                 <Team id="team" />
                 <Contact id="contact" />
             </Layout>

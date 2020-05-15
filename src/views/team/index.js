@@ -36,7 +36,7 @@ class Team extends React.Component {
         name: require("../../assets/img/clients/WPP.svg")
       },
       {
-        name: require("../../assets/img/clients/WPP.svg")
+        name: require("../../assets/img/clients/brc.svg")
       }
     ]
 
@@ -56,9 +56,7 @@ class Team extends React.Component {
         className="team"
         style={{ height: this.context.height }}
       >
-        <Row
-          className="top"
-        >
+        <Row>
           <div className="content">
               <div className="line-text">
                 <h4>Who we are</h4>
@@ -74,12 +72,12 @@ class Team extends React.Component {
               </div>
               <div
                 className="team-container"
-                style={{
-                  minHeight:
-                    this.context.height !== 'auto'
-                      ? this.context.height * 0.4
-                      : 'auto',
-                }}
+                // style={{
+                //   minHeight:
+                //     this.context.height !== 'auto'
+                //       ? this.context.height * 0.4
+                //       : 'auto',
+                // }}
               >
                   {this.team_members()}
           
@@ -96,7 +94,7 @@ class Team extends React.Component {
       return this.items.map((value, index) => {
         return (
           <Col md={2} className="client" key={index}>
-            <AnimationContainer delay={100} animation="fadeIn slower">
+            <AnimationContainer delay={100} animation="fadeIn slow">
               <img src={value.name} alt="client" />
             </AnimationContainer>
           </Col>

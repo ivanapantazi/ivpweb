@@ -44,9 +44,72 @@
         &-item {
             margin: 0 0 3rem 0;
             cursor: pointer;
+           
+            .react_lightgallery_item {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+       
+                &:hover {
+                    .mask {
+                        height: 100%;
+                        transition: all ease-in-out .3s;
+                        &-desc,
+                        &-link {
+                            opacity: 1;
+                            transition: all ease-in-out .5s;
+                        }
+                        &-link {
+                            text-decoration: none;
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
             
-            img {
-                border: 1px solid $purple;
+           .mask {
+               background: rgba($purple, 0.9);
+               position: absolute;
+               width: 100%;
+               height: 0;
+               bottom: 0;
+               left: 0;
+               display: flex;
+               justify-content: center;
+               flex-direction: column;
+
+               &-desc {
+                   color: $white;
+                   font-weight: 500;
+                    opacity: 0;
+                    position: relative;
+                    z-index: 10;
+                    align-self: center;
+               }
+
+               &-link {
+                color: $pink;
+                font-size: 2.6rem;
+                display: block;
+                font-weight: 500;
+                 opacity: 0;
+                 position: relative;
+                 z-index: 10;
+                 align-self: center;
+
+                 &:hover {
+                    text-decoration: none;
+                    border-bottom: none;
+                    color: $yellow;
+                 }
+            }
+              
+           }
+
+           img {
+                min-height: 160px;
             }
         }
     }

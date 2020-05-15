@@ -1,55 +1,70 @@
 import React from "react";
 import { LightgalleryProvider, LightgalleryItem } from "react-lightgallery";
 import { Row, Col } from 'react-bootstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 
 import "lightgallery.js/dist/css/lightgallery.css";
 
 const images = [
   [
     require("../../assets/img/work/boosey.png"),
-   "image 1"
+   "Boosey & Hawkes",
+   "https://www.boosey.com/"
   ],
   [
     require("../../assets/img/work/cf_source.png"),
-   "image 2"
+   "CF Source",
+   "https://www.cfsourcehcp.com/"
   ],
   [
     require("../../assets/img/work/first_aid_champions.png"),
-    "image 3"
+    "First aid champions",
+    "https://firstaidchampions.redcross.org.uk/"
   ],
   [
     require("../../assets/img/work/flu_facts.png"),
-    "image 4"
+    "Flu facts",
+    "https://www.ipo.gov.uk/ip-support/"
   ],
   [
     require("../../assets/img/work/ipo.png"),
-    "image 5"
+    "Intellectual property office",
+    "https://www.ipo.gov.uk/ip-support/"
   ],
   [
     require("../../assets/img/work/lcm.png"),
-   "image 6"
+    "LCM",
+   "https://www.ipo.gov.uk/ip-support/",
+
   ],
   [ 
     require("../../assets/img/work/somerset_house.png"),
-    "image 7"
+    "Somerset house",
+    "https://www.somersethouse.org.uk/"
+
   ],
   [
     require("../../assets/img/work/stories.png"),
-    "image 8"
+    "British Rec Cross stories",
+    "https://www.redcross.org.uk/stories"
   ],
   [
     require("../../assets/img/work/vertex.png"),
-    "image 9"
+    "Vertex",
+    "https://www.vrtx.com/"
   ]
 ];
 
-const PhotoItem = ({ image, group, text, subHtml }) => (
+const PhotoItem = ({ image, group, text, link, subHtml }) => (
   <Col md={3} className="gallery-item">
     <LightgalleryItem group={group} src={image} subHtml={text}>
       <div className="mask">
-        <img src={image} alt={image} style={{ width: "100%" }} />
-        <p>{text}</p>
+        <span className="mask-desc h4">{text}</span>
+        <a className="mask-link" href={link}> <FontAwesomeIcon
+          icon={faLink} /></a>
       </div>
+        <img src={image} alt={image} style={{ width: "100%" }} />   
     </LightgalleryItem>
   </Col>
 );
@@ -84,6 +99,7 @@ class Gallery extends React.Component {
                     key={idx}
                     image={p[0]}
                     text={p[1]}
+                    link={p[2]}
                     group="images"
                 />
                 ))}

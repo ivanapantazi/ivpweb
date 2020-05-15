@@ -54,12 +54,12 @@ class Services extends React.Component {
               </div>
               <div
                 className="services_container"
-                style={{
-                  minHeight:
-                    this.context.height !== 'auto'
-                      ? this.context.height * 0.6
-                      : 'inherit',
-                }}
+                // style={{
+                //   minHeight:
+                //     this.context.height !== 'auto'
+                //       ? this.context.height * 0.6
+                //       : 'inherit',
+                // }}
               >
                 {this.services()}
               </div>

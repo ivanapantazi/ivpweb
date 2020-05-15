@@ -13,11 +13,23 @@ import ThemeContext from '../../context'
 
 class About extends React.Component {
   
-    static contextType = ThemeContext
+    constructor(props) {
+        super(props)
+        this.state = {
+          show: false,
+        }
+        this.show = this.show.bind(this)
+      }
+    
+      static contextType = ThemeContext
+    
+      show() {
+        this.setState({ show: true })
+      }
     
     render() {
         return (
-            <section id={`${this.props.id}`} className="about">
+            <section id={`${this.props.id}`} className="about" style={{ height: this.context.height }}>
                
                 <Row>
                     <Col md={8} className="content">
@@ -25,9 +37,10 @@ class About extends React.Component {
                             <div className="line-text">
                                 <h4>About Us</h4>
                             </div>
-                            <h1>Story</h1>
-                            <p>Founded in 2008 by Ivana Pantazi, IvP Web Services ltd is a web development company that provide affordable high quality web design and web development services n UK &amp; Europe. At present, the head quarter is located in London and there is a regional office in Athens, Greece.</p>
-                            <p>The guiding principle behind our services is to provide all the expertise, creative innovation, commitment, resources and support to provide effective solutions to our customers. We have a range of web design and development services for business at all stages, from start-up business to long established businesses and organisations. We are expert in all types of projects from large IT projects to web based projects and have a team of experienced designers and developers that also provide consultancy services to our customers.</p>
+                            <h1>We provide great services and ideas</h1>
+                            <p>Founded in 2008 by Ivana Pantazi, IvP Web Services ltd is a web development company that provide affordable high quality web design and web development services n UK &amp; Europe. At present, the head quarter is located in London and there is a regional office in Athens, Greece. We work as an incorporated resolution providers for all type of clients from micro to macro customers.</p>
+                            <p>Our main focus is to satisfy our clients with high quality services. We have a range of web design and development services for business at all stages, from start-up business to long established businesses and organisations. We are expert in all types of projects from large IT projects to web based projects and have a team of experienced designers and developers that also provide consultancy services to our customers.</p>
+                            <p>The guiding principle behind our services is to provide all the expertise, creative innovation, commitment, resources and support to provide effective solutions to our customers. Moreover, one of our key points is to deliver all the projects with certainty of time and cost.</p>
                             <p>Don't hesitate to contact us for a quote!</p>
                         </div>
                     </Col>

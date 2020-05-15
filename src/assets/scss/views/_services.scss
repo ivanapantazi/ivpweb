@@ -36,12 +36,8 @@
                          padding: 0 30px;
                     }
                     .icon svg {
-                         font-size: 50px;
-                         color: $blue;
-                  
-                         &:first-child() {
-                              font-size: 40px;
-                         }
+                         font-size: 46px;
+                         color: $pink;
                     }
                     h4 {   
                          margin: 15px 0px 9px 0px;
@@ -58,43 +54,5 @@
           }
          }
      }
-     .row.bottom {
-          min-height: 20%;
-          background-color: $blue;
-          display: flex;
-          .container {
-               display: flex;
-               align-items: center;
-               @media (max-width:991px) {
-                    display: block;
-               }
-               .counter_component {
-                    text-align: center;
-                    @media (max-width:991px) {
-                         padding: 20px;
-                    }
-                    .icon {
-                         color: $black;
-                         font-size: 28px;
-                         height: 36px;
-                    }
-                    .value {
-                         span {
-                              color: $black;
-                              font-size: 30px;
-                        }
-                        .symbol {
-                              position: absolute;
-                              font-size: 17px;
-                              color: $purple;
-                        }
-                    }
-                    .text {
-                         color: $black;
-                         font-size: 14px;
-                         line-height: 15px;
-                    }
-               }
-          }
-     }
+
 }
