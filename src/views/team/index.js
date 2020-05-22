@@ -55,6 +55,7 @@ class Team extends React.Component {
         id={`${this.props.id}`}
         className="team"
         style={{ height: this.context.height }}
+        tabIndex="0"
       >
         <Row>
           <div className="content">
@@ -71,16 +72,8 @@ class Team extends React.Component {
                 />
               </div>
               <div
-                className="team-container"
-                // style={{
-                //   minHeight:
-                //     this.context.height !== 'auto'
-                //       ? this.context.height * 0.4
-                //       : 'auto',
-                // }}
-              >
-                  {this.team_members()}
-          
+                className="team-container">
+                  {this.team_members()}         
               </div>
           </div>
         </Row>
@@ -106,7 +99,7 @@ class Team extends React.Component {
 
   team_members(){
     return (
-      <AnimationContainer delay={100} animation="fadeIn slow">
+      <AnimationContainer delay={200} animation="fadeIn slow">
         <div className="team-member">
           <h3>Ivana Pantazi</h3>
             <div className="team-member-content">

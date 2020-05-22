@@ -30,6 +30,7 @@ class Portfolio extends React.Component {
         id={`${this.props.id}`}
         className="portfolio"
         style={{ height: this.context.height }}
+        tabIndex="0"
       >
         <Row>
           <Col md={2} className="side">

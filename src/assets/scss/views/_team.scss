@@ -1,17 +1,20 @@
 .team {
-    
+    display: flex;
     position: relative;
-    padding: 30px 0;
+    padding: 30px 0 0 0;
+    flex-direction: column;
+    background-color: $purple;
+
+    @media (max-width: 768px) {
+        padding: 0;
+    }
     .row {
-        background-color: $purple;
+        overflow: hidden;
         @media (max-width: 991px) {
-            padding: 50px 0px;
+            padding: 10px 0px;
         }
-        .content {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            padding: 5% 5% 3%;
+        .content { 
+            padding: 5% 5% 3% 5%;
             width:100%;
             @include baffleText;
             .baffle_text span {
@@ -28,7 +31,7 @@
                 }
             }
             .team-container {
-                padding: 0;
+                padding: 3rem 0;
                 .team-member {
                     outline: none;
                     padding: 10px 50px;
@@ -86,12 +89,22 @@
 
         &.bottom {
             background: $white;
-            overflow: hidden;
+            padding: 1rem 0;
+            margin-top: auto;
+            min-height: 70px;
             .client {
                 display: flex;
                 justify-content: center;
                 @media (max-width : 991px) {
-                    margin: 50px 0;
+                    margin: 15px 0;
+                }
+
+                &:last-of-type {
+                    div {
+                        img {
+                            max-width: 130px;
+                        }
+                    }
                 }
                 img {
                     object-fit: contain;

@@ -96,6 +96,7 @@ class Hero extends React.Component {
       <section
         id={`${this.props.id}`}
         className="hero"
+        tabIndex="0"
         style={{ height: this.context.height }}
       >
         <Row>

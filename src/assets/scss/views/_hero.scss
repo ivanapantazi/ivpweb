@@ -1,19 +1,16 @@
 .hero {
     background-color: $blue;
-    padding: 50px;
+    padding: 5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 
-    @media (max-width: 1024px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    @media (max-width: 768px) {
+       padding: 5rem 1rem;
     }
     .row {
         display: flex;
-        flex-wrap: inherit;
         overflow: hidden;
-        max-height: 100%;
         width: 100%;
         @media (max-width: 991px) {
             flex-wrap: wrap;
@@ -22,11 +19,12 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            padding: 5%;
-            background-color: $blue;
+            padding: 5% 0 5% 5%;
             min-height: 600px;
-            @media (max-width:991px) {
+            @media (max-width:768px) {
                 width: 100%;
+                min-height: 250px;
+                padding: 0;
             }
 
             h2 {
@@ -35,11 +33,15 @@
             .content-text {
                 z-index: 50;
                 min-width: 600px;
+                @media (max-width:768px) {
+                    width: 100%;
+                }
             }
 
             .Typewriter {
-                min-width: 200px;
-                margin-bottom: 60px;
+                min-width: 220px;
+                margin-bottom: 6rem;
+                margin-top: -2rem;
             }
             .Typewriter span {
                 color: $pink;
@@ -50,16 +52,16 @@
                     color: $white;
                 }
             }
-            @media (max-width:991px) {
+            @media (max-width: 768px) {
+                .Typewriter {
+                    margin-bottom: 3rem;
+                    margin-top: 0;
+                }
                 .Typewriter span {
-                    font-size: 3rem;
+                    font-size: 2.8rem;
                 }
             }
-            @media (max-width:1024px) {
-                .Typewriter span {
-                    font-size: 2rem;
-                }
-            }
+    
             .hover-button {
                 margin-top: 20px;
             }
@@ -71,20 +73,18 @@
 
         .images-wrapper {
            min-height: 600px;
-           min-width: 500px;
-           background: $blue;
            display: flex;
            justify-content: center;
            flex-direction: column;
-           @media (max-width: 900px) {
+           @media (max-width: 768px) {
             width: 100%;
             min-height: 300px;
            }
            svg {
                color: $white;
-               font-size: 50px;
+               font-size: 5rem;
                 @media (max-width:991px) {
-                    font-size: 20px;                       
+                    font-size: 2rem;                       
                 }
 
                 &.fa-drupal,

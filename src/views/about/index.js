@@ -29,7 +29,11 @@ class About extends React.Component {
     
     render() {
         return (
-            <section id={`${this.props.id}`} className="about" style={{ height: this.context.height }}>
+            <section id={`${this.props.id}`} 
+            className="about" 
+            style={{ height: this.context.height }}
+            tabIndex="0"
+            >
                
                 <Row>
                     <Col md={8} className="content">
@@ -54,10 +58,10 @@ class About extends React.Component {
                             <AnimationContainer delay={100} animation="fadeIn fast">
                             <Counter
                                 icon={faSmileBeam}
-                                value={50}
+                                value={25}
                                 text="Happy Clients"
                                 symbol="+"
-                                duration={3}
+                                duration={6}
                             />
                             </AnimationContainer>
                         </Col>
@@ -65,10 +69,10 @@ class About extends React.Component {
                             <AnimationContainer delay={100} animation="fadeIn fast">
                             <Counter
                                 icon={faTasks}
-                                value={40}
+                                value={60}
                                 text="Projects Delivered"
                                 symbol="+"
-                                duration={3}
+                                duration={5}
                             />
                             </AnimationContainer>
                         </Col>
@@ -76,10 +80,10 @@ class About extends React.Component {
                             <AnimationContainer delay={100} animation="fadeIn fast">
                             <Counter
                                 icon={faQuoteRight}
-                                value={30}
+                                value={15}
                                 text="Reviews"
                                 symbol="+"
-                                duration={3}
+                                duration={6}
                             />
                             </AnimationContainer>
                         </Col>

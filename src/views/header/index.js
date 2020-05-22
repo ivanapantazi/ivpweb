@@ -20,6 +20,7 @@ class Header extends React.Component {
       <section
         id={`${this.props.id}`}
         className="header"
+        tabIndex="0"
       >
         <Row>
           <Col md={12} className="content">

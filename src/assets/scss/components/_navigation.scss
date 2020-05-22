@@ -131,12 +131,15 @@
     position: fixed;
     right: 2%;
     top: 35%;
+    @media (max-width:990px) {
+        display: none;
+    }
     ul {
         list-style: none;
         li {
             margin-bottom: 0;
            span {
-                background: $black;
+                background: $pink;
                 cursor: pointer;
                 width: 5px;
                 height: 40px;
@@ -150,7 +153,7 @@
             }
             &.active {
                 span {
-                    background: $pink;
+                    background: $yellow;
                 }
             }
         }

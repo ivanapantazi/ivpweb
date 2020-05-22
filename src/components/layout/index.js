@@ -101,7 +101,7 @@ class Layout extends React.Component {
         value={{ height: this.state.mobile ? 'auto' : this.state.height }}
       >
         <Navigation change={this.changeSection} />
-        <div className="wrapper" onWheel={e => this.wheel(e)}>{children}</div>
+        <div className="wrapper" onWheel={e => this.wheel(e)} onKeyDown={(e) => this.wheel(e)}>{children}</div>
         <ScrollLock isActive={this.state.scrolllock} />
         <NavSpy change={this.changeSection} />
       </ThemeProvider>

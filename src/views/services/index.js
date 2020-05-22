@@ -34,12 +34,12 @@ class Services extends React.Component {
         id={`${this.props.id}`}
         className="services"
         style={{ height: this.context.height }}
+        tabIndex="0"
       >
         <Row
           className="top"
         >
           <div className="content">
-            <Col md={12}>
               <div className="line-text">
                 <h4>Services</h4>
               </div>
@@ -53,17 +53,9 @@ class Services extends React.Component {
                 />
               </div>
               <div
-                className="services_container"
-                // style={{
-                //   minHeight:
-                //     this.context.height !== 'auto'
-                //       ? this.context.height * 0.6
-                //       : 'inherit',
-                // }}
-              >
+                className="services_container">
                 {this.services()}
               </div>
-            </Col>
           </div>
         </Row>
       </section>

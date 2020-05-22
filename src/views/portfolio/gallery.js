@@ -57,7 +57,7 @@ const images = [
 ];
 
 const PhotoItem = ({ image, group, text, link, subHtml }) => (
-  <Col md={3} className="gallery-item">
+  <Col md={4} lg={3} className="gallery-item">
     <LightgalleryItem group={group} src={image} subHtml={text}>
       <div className="mask">
         <span className="mask-desc h4">{text}</span>

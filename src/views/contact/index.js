@@ -41,7 +41,11 @@ class Contact extends React.Component {
     }
     render() {
         return (
-            <section id={`${this.props.id}`} className="contact" style={{height: this.context.height}}>
+            <section id={`${this.props.id}`} 
+            className="contact" 
+            style={{height: this.context.height}}
+            tabIndex="0"
+            >
                 <Row>
                     <Col md={2} className="side">
                         <h2>

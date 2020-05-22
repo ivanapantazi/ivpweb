@@ -165,10 +165,11 @@ img {
 .line-text h4{
   color: $pink;
   font-family: $headingFontFamily;
-  font-size: 22px;
+  font-size: 2.2rem;
   position: relative;
   left: 110px;
   flex-basis: inherit;
+  margin-bottom: 1.5rem;
   &:after {
     content: "";
     height: 3px;
