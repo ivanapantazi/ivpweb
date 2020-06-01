@@ -61,7 +61,7 @@ const PhotoItem = ({ image, group, text, link, subHtml }) => (
     <LightgalleryItem group={group} src={image} subHtml={text}>
       <div className="mask">
         <span className="mask-desc h4">{text}</span>
-        <a className="mask-link" href={link}> <FontAwesomeIcon
+        <a className="mask-link" href={link} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon
           icon={faLink} /></a>
       </div>
         <img src={image} alt={image} style={{ width: "100%" }} />   
