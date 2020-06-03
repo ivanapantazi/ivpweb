@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ivpweb/static/css/main.cff0fa14.chunk.css",
+    "main.css": "/ivpweb/static/css/main.dcb42907.chunk.css",
     "main.js": "/ivpweb/static/js/main.f7c2bb48.chunk.js",
     "main.js.map": "/ivpweb/static/js/main.f7c2bb48.chunk.js.map",
     "runtime-main.js": "/ivpweb/static/js/runtime-main.71a4ceb7.js",
@@ -9,10 +9,10 @@
     "static/js/2.1cafb713.chunk.js": "/ivpweb/static/js/2.1cafb713.chunk.js",
     "static/js/2.1cafb713.chunk.js.map": "/ivpweb/static/js/2.1cafb713.chunk.js.map",
     "index.html": "/ivpweb/index.html",
-    "precache-manifest.23c87a09932e441a7e2e5f602b08ff2e.js": "/ivpweb/precache-manifest.23c87a09932e441a7e2e5f602b08ff2e.js",
+    "precache-manifest.1230c357527e3a4d8aa8790ce5f186d9.js": "/ivpweb/precache-manifest.1230c357527e3a4d8aa8790ce5f186d9.js",
     "service-worker.js": "/ivpweb/service-worker.js",
     "static/css/2.cbcc2d9c.chunk.css.map": "/ivpweb/static/css/2.cbcc2d9c.chunk.css.map",
-    "static/css/main.cff0fa14.chunk.css.map": "/ivpweb/static/css/main.cff0fa14.chunk.css.map",
+    "static/css/main.dcb42907.chunk.css.map": "/ivpweb/static/css/main.dcb42907.chunk.css.map",
     "static/js/2.1cafb713.chunk.js.LICENSE.txt": "/ivpweb/static/js/2.1cafb713.chunk.js.LICENSE.txt",
     "static/media/KPMG.svg": "/ivpweb/static/media/KPMG.f6e3f8dc.svg",
     "static/media/Vertex.svg": "/ivpweb/static/media/Vertex.762d5ba9.svg",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.71a4ceb7.js",
     "static/css/2.cbcc2d9c.chunk.css",
     "static/js/2.1cafb713.chunk.js",
-    "static/css/main.cff0fa14.chunk.css",
+    "static/css/main.dcb42907.chunk.css",
     "static/js/main.f7c2bb48.chunk.js"
   ]
 }
