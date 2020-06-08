@@ -80,7 +80,8 @@
                 border: none;
                 font-family: $headingFontFamily;
                 -webkit-transition: all .1s ease;
-                transition: all 0.3s ease;  
+                transition: all 0.3s ease; 
+                display: block; 
                 &:focus {
                     outline: none;
                 }

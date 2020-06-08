@@ -29,11 +29,19 @@
              .services_container {
                display: flex;
                align-items: center;
-               min-height: 500px;
+               min-height: 400px;
                
                @media (max-width: 991px) {
                     margin-top: 40px;
                }
+
+               @media (min-width: 1500px) {
+                    min-height: 650px;
+                    padding: 10rem 0;
+               }
+
+
+               
                .row {
                     overflow: hidden;
                }
@@ -43,7 +51,7 @@
                     padding: 0 40px;
                     @media (max-width: 991px) {
                          padding: 0;
-                         margin-bottom: 50px;
+                         margin-bottom: 20px;
                     }
                     @media (max-width: 1300px) {
                          padding: 0 30px;

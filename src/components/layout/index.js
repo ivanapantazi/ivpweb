@@ -18,7 +18,6 @@ class Layout extends React.Component {
       width: 0,
     }
     this.sections = [
-      'header',
       'home',
       'about',
       'services',

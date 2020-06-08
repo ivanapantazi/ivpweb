@@ -6,7 +6,7 @@ import Slider from 'react-slick'
 import ThemeContext from '../../context'
 import 'slick-carousel/slick/slick-theme.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
 
 import Ivana from '../../assets/img/team/ivana.jpg';
 import Angelica from '../../assets/img/team/angelica.jpg';
@@ -106,10 +106,9 @@ class Team extends React.Component {
               <img src={Ivana} alt="Ivana Pantazi" />
               <p>CEO/Front End Web Developer</p>
               <div className="social social_icons">
-                  <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                  <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                  <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
+                  <FontAwesomeIcon icon={faFacebook} className="social_icon" onClick={() => window.open('https://www.facebook.com/ivpweb')}/>
+                  <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/ivanapantazi')} />
+                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/ivanap/')} />
               </div>
             </div>  
           </div>
@@ -119,10 +118,9 @@ class Team extends React.Component {
               <img src={Angelica} alt="Angelica Koumanakou" />
               <p>Illustrator/Digital Designer</p>
               <div className="social social_icons">
-                  <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                  <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                  <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
+                  <FontAwesomeIcon icon={faFacebook} className="social_icon" onClick={() => window.open('https://www.facebook.com/angelicakoumanakou')}/>
+                  <FontAwesomeIcon icon={faInstagram} className="social_icon" onClick={() => window.open('https://www.instagram.com/angelicakoumanakou/')} />
+                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/angelica-koumanakou/')} />
               </div>
             </div>
           </div>
@@ -131,6 +129,9 @@ class Team extends React.Component {
             <div className="team-member-content">
               <img src={Stergios} alt="Stergios Zissakis" />
               <p>Back End Developer/Programmer</p>
+              <div className="social social_icons">
+              <FontAwesomeIcon icon={faGithub} className="social_icon"/>
+              </div>
             </div>
           </div>
       </AnimationContainer>
@@ -158,11 +159,10 @@ class Team extends React.Component {
                 <img src={Ivana} alt="Ivana Pantazi" />
                 <h4>CEO/Front End Web Developer</h4>
                 <div className="social social_icons">
-                    <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                    <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                    <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                    <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
-                </div>
+                  <FontAwesomeIcon icon={faFacebook} className="social_icon" onClick={() => window.open('https://www.facebook.com/ivpweb')}/>
+                  <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://github.com/ivanapantazi')} />
+                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/ivanap/')} />
+              </div>
               </div>  
             </div>
             <div className="team-member">
@@ -171,11 +171,10 @@ class Team extends React.Component {
                 <img src={Angelica} alt="Angelica Koumanakou" />
                 <h4>Illustrator/Digital Designer</h4>
                 <div className="social social_icons">
-                    <FontAwesomeIcon icon={faGithub} className="social_icon" onClick={() => window.open('https://www.github.com')}/>
-                    <FontAwesomeIcon icon={faTwitter} className="social_icon" onClick={() => window.open('https://www.twitter.com')} />
-                    <FontAwesomeIcon icon={faYoutube} className="social_icon" onClick={() => window.open('https://www.youtube.com')} />
-                    <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com')} />
-                </div>
+                  <FontAwesomeIcon icon={faFacebook} className="social_icon" onClick={() => window.open('https://www.facebook.com/angelicakoumanakou')}/>
+                  <FontAwesomeIcon icon={faInstagram} className="social_icon" onClick={() => window.open('https://www.instagram.com/angelicakoumanakou/')} />
+                  <FontAwesomeIcon icon={faLinkedin} className="social_icon" onClick={() => window.open('https://www.linkedin.com/in/angelica-koumanakou/')} />
+              </div>
               </div>
             </div>
             <div className="team-member">

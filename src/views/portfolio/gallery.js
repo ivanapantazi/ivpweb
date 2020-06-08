@@ -23,9 +23,9 @@ const images = [
     "https://firstaidchampions.redcross.org.uk/"
   ],
   [
-    require("../../assets/img/work/flu_facts.png"),
-    "Flu facts",
-    "https://www.ipo.gov.uk/ip-support/"
+    require("../../assets/img/work/design_library.png"),
+    "BRC Design Library",
+    "https://britishredcrosssociety.github.io/design-library/"
   ],
   [
     require("../../assets/img/work/ipo.png"),
@@ -57,7 +57,7 @@ const images = [
 ];
 
 const PhotoItem = ({ image, group, text, link, subHtml }) => (
-  <Col md={4} lg={3} className="gallery-item">
+  <Col sm={4} md={3} lg={3} className="gallery-item">
     <LightgalleryItem group={group} src={image} subHtml={text}>
       <div className="mask">
         <span className="mask-desc h4">{text}</span>
