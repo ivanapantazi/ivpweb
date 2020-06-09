@@ -35,7 +35,7 @@ const images = [
   [
     require("../../assets/img/work/lcm.png"),
     "LCM",
-   "https://www.ipo.gov.uk/ip-support/",
+   "https://www.ipo.gov.uk/ip-support/"
 
   ],
   [ 
@@ -50,9 +50,24 @@ const images = [
     "https://www.redcross.org.uk/stories"
   ],
   [
+    require("../../assets/img/work/heineken.png"),
+    "Heineken Sustainability Report 2012",
+    "http://www.annualreports.com/Company/heineken-nv"
+  ],
+  [
     require("../../assets/img/work/vertex.png"),
     "Vertex",
     "https://www.vrtx.com/"
+  ],
+  [
+    require("../../assets/img/work/wpp.png"),
+    "WPP Annual Report 2012",
+    "http://www.annualreports.co.uk/Company/wpp-group-plc/"
+  ],
+  [
+    require("../../assets/img/work/wpp_2.png"),
+    "WPP Sustainability Report 2012",
+    "https://www.wpp.com/sustainability/sustainability-report-2018"
   ]
 ];
 

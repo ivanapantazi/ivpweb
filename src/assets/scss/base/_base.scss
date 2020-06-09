@@ -19,7 +19,6 @@ html {
   font-family: $baseFontFamily; 
 }
 
-
 h1,
 h2,
 h3,
@@ -227,8 +226,16 @@ img {
   display: block;
   background-color: $pink;
 }
+
 .row {
+  margin-right: 0;
+  margin-left: 0;
   overflow-x: hidden;
+
+  @media #{$tablet} {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
 }
 
 .error-404 {

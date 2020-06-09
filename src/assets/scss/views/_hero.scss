@@ -6,7 +6,7 @@
     justify-content: center;
 
     @media (max-width: 768px) {
-       padding: 5rem 1rem;
+       padding: 5rem 2rem;
     }
     .row {
         display: flex;
@@ -56,12 +56,16 @@
                 .Typewriter {
                     margin-bottom: 3rem;
                     margin-top: 0;
+                    max-width: 330px;
                 }
                 .Typewriter span {
                     font-size: 3rem;
                 }
             }
             @media (max-width: 320px) {
+                .Typewriter {
+                    max-width: 280px;
+                }
                 .Typewriter span {
                     font-size: 2.7rem;
                 }

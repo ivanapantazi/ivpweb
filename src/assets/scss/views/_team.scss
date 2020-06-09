@@ -29,9 +29,15 @@
                     display: block;
                     padding: 70px 0px;
                 }
+                @media (max-width: 580px) {
+                    padding: 0;
+                }
             }
             .team-container {
                 padding: 0 0 3rem 0;
+                @media (max-width: 580px) {
+                    padding: 0;
+                }
 
                 @media (min-width:1500px) {
                     padding: 7rem 0 3rem;
@@ -39,6 +45,9 @@
                 .team-member {
                     outline: none;
                     padding: 10px 50px;
+                    @media (max-width: 580px) {
+                        padding: 10px 30px;
+                    }
                     h3 {
                         color: $yellow;
                         font-family: $baseFontFamily;
