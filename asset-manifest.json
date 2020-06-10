@@ -1,28 +1,30 @@
 {
   "files": {
-    "main.css": "/ivpweb/static/css/main.ac8fe847.chunk.css",
-    "main.js": "/ivpweb/static/js/main.613d4046.chunk.js",
-    "main.js.map": "/ivpweb/static/js/main.613d4046.chunk.js.map",
+    "main.css": "/ivpweb/static/css/main.48c639d4.chunk.css",
+    "main.js": "/ivpweb/static/js/main.5e8474de.chunk.js",
+    "main.js.map": "/ivpweb/static/js/main.5e8474de.chunk.js.map",
     "runtime-main.js": "/ivpweb/static/js/runtime-main.71a4ceb7.js",
     "runtime-main.js.map": "/ivpweb/static/js/runtime-main.71a4ceb7.js.map",
     "static/css/2.cbcc2d9c.chunk.css": "/ivpweb/static/css/2.cbcc2d9c.chunk.css",
-    "static/js/2.1cafb713.chunk.js": "/ivpweb/static/js/2.1cafb713.chunk.js",
-    "static/js/2.1cafb713.chunk.js.map": "/ivpweb/static/js/2.1cafb713.chunk.js.map",
+    "static/js/2.a2df62b4.chunk.js": "/ivpweb/static/js/2.a2df62b4.chunk.js",
+    "static/js/2.a2df62b4.chunk.js.map": "/ivpweb/static/js/2.a2df62b4.chunk.js.map",
     "index.html": "/ivpweb/index.html",
-    "precache-manifest.9dd7df2dd82494713d3b1fd0630a29e7.js": "/ivpweb/precache-manifest.9dd7df2dd82494713d3b1fd0630a29e7.js",
+    "precache-manifest.1b1a3c6c723aa96e60eb57c786ce0359.js": "/ivpweb/precache-manifest.1b1a3c6c723aa96e60eb57c786ce0359.js",
     "service-worker.js": "/ivpweb/service-worker.js",
     "static/css/2.cbcc2d9c.chunk.css.map": "/ivpweb/static/css/2.cbcc2d9c.chunk.css.map",
-    "static/css/main.ac8fe847.chunk.css.map": "/ivpweb/static/css/main.ac8fe847.chunk.css.map",
-    "static/js/2.1cafb713.chunk.js.LICENSE.txt": "/ivpweb/static/js/2.1cafb713.chunk.js.LICENSE.txt",
+    "static/css/main.48c639d4.chunk.css.map": "/ivpweb/static/css/main.48c639d4.chunk.css.map",
+    "static/js/2.a2df62b4.chunk.js.LICENSE.txt": "/ivpweb/static/js/2.a2df62b4.chunk.js.LICENSE.txt",
     "static/media/KPMG.svg": "/ivpweb/static/media/KPMG.f6e3f8dc.svg",
     "static/media/Vertex.svg": "/ivpweb/static/media/Vertex.762d5ba9.svg",
     "static/media/WPP.svg": "/ivpweb/static/media/WPP.f36e56dd.svg",
     "static/media/angelica.jpg": "/ivpweb/static/media/angelica.cc594e8c.jpg",
+    "static/media/main.scss": "/ivpweb/static/media/bg.55dcbfe6.svg",
     "static/media/boosey.png": "/ivpweb/static/media/boosey.d459723b.png",
     "static/media/brc.svg": "/ivpweb/static/media/brc.94949402.svg",
     "static/media/cf_source.png": "/ivpweb/static/media/cf_source.51b1a0ac.png",
     "static/media/design_library.png": "/ivpweb/static/media/design_library.a6950d07.png",
     "static/media/first_aid_champions.png": "/ivpweb/static/media/first_aid_champions.ec4856ed.png",
+    "static/media/heineken.png": "/ivpweb/static/media/heineken.972623fb.png",
     "static/media/heineken.svg": "/ivpweb/static/media/heineken.a2616df5.svg",
     "static/media/ipo.png": "/ivpweb/static/media/ipo.67177cba.png",
     "static/media/ivana.jpg": "/ivpweb/static/media/ivana.b899189b.jpg",
@@ -34,13 +36,15 @@
     "static/media/somerset_house.png": "/ivpweb/static/media/somerset_house.9ca211e8.png",
     "static/media/stergios.jpg": "/ivpweb/static/media/stergios.362c28fc.jpg",
     "static/media/stories.png": "/ivpweb/static/media/stories.89622e93.png",
-    "static/media/vertex.png": "/ivpweb/static/media/vertex.d1daf975.png"
+    "static/media/vertex.png": "/ivpweb/static/media/vertex.d1daf975.png",
+    "static/media/wpp.png": "/ivpweb/static/media/wpp.4dc43e15.png",
+    "static/media/wpp_2.png": "/ivpweb/static/media/wpp_2.1b9e74b2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.71a4ceb7.js",
     "static/css/2.cbcc2d9c.chunk.css",
-    "static/js/2.1cafb713.chunk.js",
-    "static/css/main.ac8fe847.chunk.css",
-    "static/js/main.613d4046.chunk.js"
+    "static/js/2.a2df62b4.chunk.js",
+    "static/css/main.48c639d4.chunk.css",
+    "static/js/main.5e8474de.chunk.js"
   ]
 }
