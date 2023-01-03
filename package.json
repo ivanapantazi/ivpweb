@@ -20,7 +20,7 @@
     "react-lightgallery": "^0.4.3",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-scrolllock": "^5.0.1",
     "react-scrollspy": "^3.4.2",
     "react-slick": "^0.25.2",
